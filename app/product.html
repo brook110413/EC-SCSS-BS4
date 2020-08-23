@@ -1,0 +1,158 @@
+---
+title: 商品頁面
+layout: ./app/layout.ejs
+engine: ejs
+current: product
+---
+<!-- 商品選單 -->
+<div class="product__menu mb-4 mb-lg-6 bg-light">
+  <div class="container">
+    <ul class="nav nav-pills mb-3 py-3 py-lg-4" id="pills-tab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab"
+          aria-controls="pills-all" aria-selected="true">All<sup>24</sup></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-bowl-tab" data-toggle="pill" href="#pills-bowl" role="tab"
+          aria-controls="pills-bowl" aria-selected="false">Bowl<sup>10</sup></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-cup-tab" data-toggle="pill" href="#pills-cup" role="tab" aria-controls="pills-cup"
+          aria-selected="false">Cup<sup>8</sup></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-plate-tab" data-toggle="pill" href="#pills-plate" role="tab"
+          aria-controls="pills-plate" aria-selected="false">Plate<sup>3</sup></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-vase-tab" data-toggle="pill" href="#pills-vase" role="tab"
+          aria-controls="pills-vase" aria-selected="false">Vase<sup>3</sup></a>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- 商品內容 -->
+<div class="product__content">
+  <div class="container">
+    <div class="tab-content mb-9" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="row flex-wrap">
+          <div class="col-6 col-lg-4">
+            <div class="product mb-4 mb-lg-6">
+              <a href="detail-prouuct-1.html">
+                <div class="product-bg product-h350 product-sm-h160 product-1">
+                  <p class="specialOffer">On Sale</p>
+                </div>
+              </a>
+              <div class="productBody">
+                <h4 class="productName">Tatami Cup</h4>
+                <p class="productPrice">NT$1,080<span><del> NT$1,200</del></span></p>
+              </div>
+            </div>
+            <div class="product mb-4 mb-lg-6">
+              <a href="#">
+                <div class="product-bg product-h240 product-sm-h160 product-2"></div>
+              </a>
+              <div class="productBody">
+                <h4 class="productName">Limdae Cup</h4>
+                <p class="productPrice">NT$2,400</p>
+              </div>
+            </div>
+            <div class="product">
+              <a href="#">
+                <div class="product-bg product-h480 product-sm-h160 product-3"></div>
+              </a>
+              <div class="productBody">
+                <h4 class="productName">Kabi Mug</h4>
+                <p class="productPrice">NT$980</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="product mb-4 mb-lg-6">
+              <a href="#">
+                <div class="product-bg product-h480 product-sm-h160 product-4">
+                  <p class="specialOffer">On Sale</p>
+                </div>
+              </a>
+              <div class="productBody">
+                <h4 class="productName">Hana Vase</h4>
+                <p class="productPrice">NT$3,600<span><del> NT$3,880</del></>
+                </p>
+              </div>
+            </div>
+            <div class="product mb-4 mb-lg-6">
+              <a href="#">
+                <div class="product-bg product-h350 product-sm-h160 product-5"></div>
+              </a>
+              <div class="productBody">
+                <h4 class="productName">Sumo Vase</h4>
+                <p class="productPrice">NT$4,800</p>
+              </div>
+            </div>
+            <div class="product">
+              <a href="#">
+                <div class="product-bg product-h240 product-sm-h160 product-6"></div>
+              </a>
+              <div class="productBody">
+                <h4 class="productName">Shiro Plate</h4>
+                <p class="productPrice">NT$1,200</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 d-none d-lg-block">
+            <div class="product mb-6">
+              <a href="#">
+                <div class="product-bg product-h240 product-sm-h160 product-7">
+                  <p class="specialOffer">On Sale</p>
+                </div>
+              </a>
+              <div class="productBody">
+                <h4 class="productName">Baifan Bowl</h4>
+                <p class="productPrice">NT$1,800<span><del> NT$1,980</del></span></p>
+              </div>
+            </div>
+            <div class="product mb-6">
+              <a href="#">
+                <div class="product-bg product-h480 product-sm-h160 product-8"></div>
+              </a>
+              <div class="productBody">
+                <h4 class="productName">Ceramic Vase</h4>
+                <p class="productPrice">NT$3,600</p>
+              </div>
+            </div>
+            <div class="product">
+              <a href="#">
+                <div class="product-bg product-h350 product-sm-h160 product-9"></div>
+              </a>
+              <div class="productBody">
+                <h4 class="productName">Couple Collection</h4>
+                <p class="productPrice">NT$2,800</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-bowl" role="tabpanel" aria-labelledby="pills-profile-tab">2</div>
+      <div class="tab-pane fade" id="pills-cup" role="tabpanel" aria-labelledby="pills-cup-tab">3</div>
+      <div class="tab-pane fade" id="pills-plate" role="tabpanel" aria-labelledby="pills-plate-tab">4</div>
+      <div class="tab-pane fade" id="pills-vase" role="tabpanel" aria-labelledby="pills-vase-tab">5</div>
+    </div>
+  </div>
+  <!-- 分頁 -->
+  <ul class="pagination nav nav-pills mb-3 justify-content-center align-items-center mb-9" id="pills-tab"
+    role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active h4" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+        aria-controls="pills-home" aria-selected="true">1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link h4" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+        aria-controls="pills-profile" aria-selected="false">2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link h4" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+        aria-controls="pills-contact" aria-selected="false">3</a>
+    </li>
+  </ul>
+</div>
